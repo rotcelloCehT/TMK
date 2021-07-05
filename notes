@@ -1,0 +1,14 @@
+1. npx create-react-app name-app
+2. Make globalStyles.js in a 'style' folder
+3. Install npm install --save styled-components
+4. Import Navigation bar from ressources.
+    - hooks.js
+    - npm install --save 'usesate' AND  'useref'
+    - theme provider
+5. - HOW TO MAKE MENU DESKTOP : css properties to adjust menu based on screen size.
+6. -conditional rendering of burger based on screen size 
+        -https://stackoverflow.com/questions/36862334/get-viewport-window-height-in-reactjs
+7. - COMPONENTS CONDITION RENDERING 
+        -https://reactjs.org/docs/conditional-rendering.html
+        -https://stackoverflow.com/questions/42083181/is-it-possible-to-return-empty-in-react-render-function
+8. -
