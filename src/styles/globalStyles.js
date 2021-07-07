@@ -20,12 +20,21 @@ const GlobalStyle = createGlobalStyle`
     src: url(${OswaldRegular}) format('truetype');
     font-display: auto;
   }
+  
 
-  body {
+  html, body {
     margin: 0;
     padding: 0;
-    background:  ${({ theme }) => theme.primaryDark};
-    font-family: Open-Sans, Helvetica, Sans-Serif;
+  }
+  *, *::after, *::before {
+    box-sizing: border-box;
+    
+  }
+  body {
+    background: ${({ theme }) => theme.primaryDark};
+    color: ${({ theme }) => theme.primaryLight};
+    width: 100%;
+    text-rendering: optimizeLegibility;
   }
 `;
  

@@ -3,11 +3,14 @@ import kitchenMobile from '../../images/backgroundmobile.png'
 import kitchenDesktop from '../../images/background.png'
 
 export const StyledHeader = styled.div`
-    background: white;
-    background-image: url(${kitchenMobile});
-    background-size: cover;
-    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     height: 100vh;
+    background-image: url(${kitchenMobile});
+    background-size: fill;
+    background-position: center;
     @media (min-width: ${({ theme }) => theme.desktop}) {
         background-image: url(${kitchenDesktop});
     }
@@ -20,6 +23,21 @@ export const StyledHeader = styled.div`
             padding-top: 130px;
             width: 30%;
         }
+    }
+
+    h2 {
+        font-size: 25px;
+        font-family: OswaldRegular;
+        color: ${({ theme }) => theme.primaryDark};
+        @media (min-width: ${({ theme }) => theme.desktop}) {
+            margin: 5px;
+        }
+    }
+    
+    h1 {
+        font-size: 40px;
+        font-family: OswaldRegular;
+        color: ${({ theme }) => theme.primaryDark};
     }
 }
     

@@ -3,9 +3,15 @@ import './App.css';
 import { Burger, Menu } from './components/nav';
 // HEADER IMPORT
 import Header from './components/header/Header';
+// GALLERY IMPORT
+import Gallery from './components/gallery/Gallery';
+// ABOUT IMPORT
+import About from './components/about/About';
+// STYLES AND GLOBAL THEME
 import GlobalStyles from './styles/globalStyles';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
+// NAVIGATION HOOKS
 import { useOnClickOutside } from './hooks';
 import React, { useState, useRef } from 'react';
 
@@ -26,6 +32,7 @@ function App() {
             <Menu open={open} setOpen={setOpen} />
           </div>
           <Header />
+          <Gallery />
         </>
       </ThemeProvider>
     </div>

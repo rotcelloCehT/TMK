@@ -1,7 +1,7 @@
 // Burger.js
 import React from 'react';
 import { bool, func } from 'prop-types';
-import { StyledBurger } from './Burger.styled';
+import { StyledBurger } from './Burger.Styled';
 import useWindowDimensions from '../../../hooks';
 
 // props are destructured
