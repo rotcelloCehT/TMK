@@ -26,7 +26,7 @@ export const StyledHeader = styled.div`
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 30px;
         font-family: OswaldRegular;
         color: ${({ theme }) => theme.primaryDark};
         @media (min-width: ${({ theme }) => theme.desktop}) {
@@ -35,7 +35,8 @@ export const StyledHeader = styled.div`
     }
     
     h1 {
-        font-size: 40px;
+        font-size: 45px;
+        margin: 0;
         font-family: OswaldRegular;
         color: ${({ theme }) => theme.primaryDark};
     }

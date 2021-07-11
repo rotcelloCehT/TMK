@@ -33,6 +33,7 @@ function App() {
           </div>
           <Header />
           <Gallery />
+          <About />
         </>
       </ThemeProvider>
     </div>

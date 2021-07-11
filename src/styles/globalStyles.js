@@ -1,8 +1,13 @@
 // globalStyles.js
 import { createGlobalStyle } from 'styled-components';
+// OPEN SANS IMPORT 
 import OpenRegular from '../fonts/Open_Sans/OpenSans-Regular.ttf';
 import OpenLight from '../fonts/Open_Sans/OpenSans-Light.ttf';
+import OpenExtraItalic from '../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf'
+// OSWALD IMPORT 
+import OswaldMedium from '../fonts/Oswald/Oswald-Medium.ttf';
 import OswaldRegular from '../fonts/Oswald/Oswald-Regular.ttf'; 
+import OswaldLight from '../fonts/Oswald/Oswald-Light.ttf'; 
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -16,8 +21,24 @@ const GlobalStyle = createGlobalStyle`
     font-display: auto;
   }
   @font-face {
+    font-family: OpenExtraItalic;
+    src: url(${OpenExtraItalic}) format('truetype');
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: OswaldMedium;
+    src: url(${OswaldMedium}) format('truetype');
+    font-display: auto;
+  }
+  @font-face {
     font-family: OswaldRegular;
     src: url(${OswaldRegular}) format('truetype');
+    font-display: auto;
+  }
+  @font-face {
+    font-family: OswaldLight;
+    src: url(${OswaldLight}) format('truetype');
     font-display: auto;
   }
   
