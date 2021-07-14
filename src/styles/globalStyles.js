@@ -46,16 +46,13 @@ const GlobalStyle = createGlobalStyle`
   html, body {
     margin: 0;
     padding: 0;
+    background-color: ${({ theme }) => theme.primaryWhite};
+    color: ${({ theme }) => theme.primaryLight};
+    text-rendering: optimizeLegibility;
   }
   *, *::after, *::before {
     box-sizing: border-box;
     
-  }
-  body {
-    background: ${({ theme }) => theme.primaryDark};
-    color: ${({ theme }) => theme.primaryLight};
-    width: 100%;
-    text-rendering: optimizeLegibility;
   }
 `;
  

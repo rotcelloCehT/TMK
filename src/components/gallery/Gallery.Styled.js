@@ -3,10 +3,11 @@ import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 export const StyledGallery = styled.div`
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: white;
+    background: ${({ theme }) => theme.primaryWhite};
     padding: 50px 0px;
     
     

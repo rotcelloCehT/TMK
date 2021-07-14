@@ -8,11 +8,14 @@ export const StyledHeader = styled.div`
     align-items: center;
     text-align: center;
     height: 100vh;
+    width: 100%;
     background-image: url(${kitchenMobile});
-    background-size: fill;
+    background-size: auto;
+    background-repeat: no-repeat;
     background-position: center;
     @media (min-width: ${({ theme }) => theme.desktop}) {
         background-image: url(${kitchenDesktop});
+        background-size: cover;
     }
 
     img {
@@ -26,7 +29,7 @@ export const StyledHeader = styled.div`
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 35px;
         font-family: OswaldRegular;
         color: ${({ theme }) => theme.primaryDark};
         @media (min-width: ${({ theme }) => theme.desktop}) {
