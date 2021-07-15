@@ -16,6 +16,7 @@ const About = () => {
                     <img src={ Face } alt="Jason portrait" />
                 </div> 
                 <p>We've been in the<br/>carpentry business for<br/>more than 10 years<br/>with over 100 projects<br/>completed</p>
+                <img className="tools" src={ Tools } alt="" />
             </div>
             <div className="checkmark-container">
                 <div className="checkmark"> 

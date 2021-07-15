@@ -10,6 +10,7 @@ export const StyledAbout = styled.div`
         flex-direction: row;
     }
 
+    
     .about-container {
         display: flex;
         flex-direction: column;
@@ -17,12 +18,26 @@ export const StyledAbout = styled.div`
         text-align: center;
         height: 120vh;
         width: 100%;
+        position: relative;
         background: ${({ theme }) => theme.primaryDark};
         color: ${({ theme }) => theme.primaryLight};
         @media (min-width: ${({ theme }) => theme.desktop}) {
             height: 100vh;
-            width: 50%;
+            width: 40%;
             justify-content: flex-start;
+        }
+
+        .tools {
+            mix-blend-mode: luminosity;
+            position: absolute;
+            bottom: -35vw;
+            width: 70vw;
+            z-index: 1;
+            @media (min-width: ${({ theme }) => theme.desktop}) {
+                width: 20vw;
+                bottom: calc(50% - 100px);
+                right: -10vw;
+            }
         }
 
         h1 {
@@ -31,25 +46,26 @@ export const StyledAbout = styled.div`
             padding-top: 50px;
             margin: 0;
             @media (min-width: ${({ theme }) => theme.desktop}) {
-                font-size: 80px;
-                padding-top: 30px;
+                font-size: 5vw;
+                padding-top: 10px;
             }
         }
         .decor-bar {
             width: 220px;
+            min-height: 5px;
             height: 5px;
             border-radius: 5px;
             background: white;
             margin: 0px 0 30px 0;
             @media (min-width: ${({ theme }) => theme.desktop}) {
-                width: 340px;
+                width: 55%;
             }
         }
         img {
-            height: 220px;
+            width: 220px;
             margin-bottom: 30px;
             @media (min-width: ${({ theme }) => theme.desktop}) {
-                height: 340px;
+                width: 15vw;
             }
         }
         
@@ -57,7 +73,7 @@ export const StyledAbout = styled.div`
             font-size: 30px;
             font-family: OpenRegular;
             @media (min-width: ${({ theme }) => theme.desktop}) {
-                font-size: 40px;
+                font-size: 2vw;
             }
         }
     }
@@ -69,28 +85,26 @@ export const StyledAbout = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
         background: ${({ theme }) => theme.primaryGrey};
         @media (min-width: ${({ theme }) => theme.desktop}) {
             height: 100vh;
-            width: 50%;
-            justify-content: center;
+            width: 60%;
         }
 
         .checkmark {
             display: flex;
             align-items: center;
-            text-align: left;
             justify-content: flex-start;
-            margin: 20px 0;
-            width: 60%;
+            width: 100%;
+            padding-left: 10%;
             @media (min-width: ${({ theme }) => theme.desktop}) {
-                margin: 30px 0;
+                width: 80%;
             }
 
             img {
+                height: 10vh;
                 @media (min-width: ${({ theme }) => theme.desktop}) {
-                    height: 150px;
+                    height: 12vh;
                 }
             }
             p {
@@ -98,7 +112,7 @@ export const StyledAbout = styled.div`
                 font-size: 35px;
                 color: ${({ theme }) => theme.primaryDark};
                 @media (min-width: ${({ theme }) => theme.desktop}) {
-                    font-size: 60px;
+                    font-size: 50px;
                 }
             }
         }
