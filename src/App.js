@@ -7,6 +7,10 @@ import Header from './components/header/Header';
 import Gallery from './components/gallery/Gallery';
 // ABOUT IMPORT
 import About from './components/about/About';
+// TRIPLECARD IMPORT
+import TripleCard from './components/triplecard/Triplecard';
+// CUSTOM IMPORT
+import Custom from './components/custom/Custom';
 // STYLES AND GLOBAL THEME
 import GlobalStyles from './styles/globalStyles';
 import { ThemeProvider } from 'styled-components';
@@ -34,6 +38,8 @@ function App() {
           <Header />
           <Gallery />
           <About />
+          <TripleCard />
+          <Custom />
         </>
       </ThemeProvider>
     </div>

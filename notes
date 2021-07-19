@@ -1,5 +1,6 @@
 1. npx create-react-app name-app
 2. Make globalStyles.js in a 'style' folder
+        -Remember to add the global body styles.
 3. Install npm install --save styled-components
 4. Import Navigation bar from ressources.
     - hooks.js
@@ -11,4 +12,16 @@
 7. - COMPONENTS CONDITION RENDERING 
         -https://reactjs.org/docs/conditional-rendering.html
         -https://stackoverflow.com/questions/42083181/is-it-possible-to-return-empty-in-react-render-function
-8. -
+8. -GALLERY 
+        -remove space between flex containers
+        -!!!! FIGURE OUT HOW TO REMOVE THE SPACING BETWEEN FLEXBOX ITEMS
+
+9. BODY NO DISPLAY FLEX;
+        -with: 100%; box-sizing: border-box; 
+        -COMPONENTS DISPLAY:FLEX;
+
+        emergency reset 
+        drivers
+        in vantage: battery gauge
+
+10. CHANGE PYROGRPAHY AND CHANGE THE FONT ON "CUSTOM MADE" !!!!!!!!!!!!!!!!!!!!!!!!!!

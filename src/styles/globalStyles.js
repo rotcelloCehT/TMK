@@ -37,6 +37,11 @@ const GlobalStyle = createGlobalStyle`
     font-display: auto;
   }
   @font-face {
+    font-family: OswaldMedium;
+    src: url(${OswaldMedium}) format('truetype');
+    font-display: auto;
+  }
+  @font-face {
     font-family: OswaldLight;
     src: url(${OswaldLight}) format('truetype');
     font-display: auto;
@@ -49,6 +54,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${({ theme }) => theme.primaryWhite};
     color: ${({ theme }) => theme.primaryLight};
     text-rendering: optimizeLegibility;
+    font-size: 0;
   }
   *, *::after, *::before {
     box-sizing: border-box;
