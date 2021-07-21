@@ -8,6 +8,10 @@ import OpenExtraItalic from '../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf'
 import OswaldMedium from '../fonts/Oswald/Oswald-Medium.ttf';
 import OswaldRegular from '../fonts/Oswald/Oswald-Regular.ttf'; 
 import OswaldLight from '../fonts/Oswald/Oswald-Light.ttf'; 
+// FRANK IMPORT
+import FrankBold from '../fonts/Frank_Ruhl_Libre/Frank-Bold.ttf'; 
+import FrankRegular from '../fonts/Frank_Ruhl_Libre/Frank-Regular.ttf'; 
+import FrankLight from '../fonts/Frank_Ruhl_Libre/Frank-Light.ttf'; 
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -44,6 +48,22 @@ const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: OswaldLight;
     src: url(${OswaldLight}) format('truetype');
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: FrankRegular;
+    src: url(${FrankRegular}) format('truetype');
+    font-display: auto;
+  }
+  @font-face {
+    font-family: FrankLight;
+    src: url(${FrankLight}) format('truetype');
+    font-display: auto;
+  }
+  @font-face {
+    font-family: FrankBold;
+    src: url(${FrankBold}) format('truetype');
     font-display: auto;
   }
   

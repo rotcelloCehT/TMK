@@ -11,6 +11,8 @@ import About from './components/about/About';
 import TripleCard from './components/triplecard/Triplecard';
 // CUSTOM IMPORT
 import Custom from './components/custom/Custom';
+// BESPOKE IMPORT
+import Bespoke from './components/bespoke/Bespoke';
 // STYLES AND GLOBAL THEME
 import GlobalStyles from './styles/globalStyles';
 import { ThemeProvider } from 'styled-components';
@@ -40,6 +42,7 @@ function App() {
           <About />
           <TripleCard />
           <Custom />
+          <Bespoke />
         </>
       </ThemeProvider>
     </div>
