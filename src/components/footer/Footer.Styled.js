@@ -1,0 +1,61 @@
+import styled from 'styled-components';
+
+export const StyledFooter = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: ${({ theme }) => theme.primaryDark};
+    @media (min-width: ${({ theme }) => theme.desktop}) {
+        flex-direction: row;
+        height: 35vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info {
+        color: white;
+        padding: 10%;
+        @media (min-width: ${({ theme }) => theme.desktop}) {
+            order: 1;
+            padding: 0 0 0 2%;
+        }
+        p {
+            font-family: OpenRegular;
+            font-size: 20px;
+            margin: 3%;
+            @media (min-width: ${({ theme }) => theme.desktop}) {
+                font-size: 23px;
+                margin: 0;
+            }
+        }
+    }
+
+    .social {
+        display: flex;
+        padding: 0 0 0 10px;
+        @media (min-width: ${({ theme }) => theme.desktop}) {
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0 0 0 5%;
+            height: 25vh;
+        }
+        div {
+            margin: 0 10px 0 0;
+        }
+    }
+
+    .map {
+        height: 80vh;
+        width: 100%;
+        margin: 5% 0;
+        position: relative;
+        @media (min-width: ${({ theme }) => theme.desktop}) {
+            order: 2;
+            height: 35vh;
+            width: 50%;
+        }
+    }
+    
+`;

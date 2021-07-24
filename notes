@@ -25,3 +25,8 @@
         in vantage: battery gauge
 
 10. CHANGE PYROGRPAHY AND CHANGE THE FONT ON "CUSTOM MADE" !!!!!!!!!!!!!!!!!!!!!!!!!!
+
+11. GOOGLE MAPS
+        - https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
+        - map styles position: absolute;
+        - map container that wrap the component map you import, position: relative;
