@@ -13,6 +13,8 @@ import TripleCard from './components/triplecard/Triplecard';
 import Custom from './components/custom/Custom';
 // BESPOKE IMPORT
 import Bespoke from './components/bespoke/Bespoke';
+// TESTIMONY IMPORT
+import Testimony from './components/testimony/Testimony';
 // STYLES AND GLOBAL THEME
 import GlobalStyles from './styles/globalStyles';
 import { ThemeProvider } from 'styled-components';
@@ -43,6 +45,7 @@ function App() {
           <TripleCard />
           <Custom />
           <Bespoke />
+          <Testimony />
         </>
       </ThemeProvider>
     </div>

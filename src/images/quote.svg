@@ -1,0 +1,13 @@
+<svg id="quote" xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
+  <path id="Path_17" data-name="Path 17" d="M0,0H57V57H0Z" fill="#7e7e7e"/>
+  <g id="Group_9" data-name="Group 9" transform="translate(12 25)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" transform="translate(1 1)" fill="#fff"/>
+    <path id="Path_13" data-name="Path 13" d="M18.5,38A6.5,6.5,0,1,1,25,31.5,6.508,6.508,0,0,1,18.5,38Zm0-11A4.5,4.5,0,1,0,23,31.5,4.505,4.505,0,0,0,18.5,27Z" transform="translate(-12 -25)" fill="#fff"/>
+  </g>
+  <g id="Group_10" data-name="Group 10" transform="translate(29 25)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.5" cy="5.5" r="5.5" transform="translate(1 1)" fill="#fff"/>
+    <path id="Path_14" data-name="Path 14" d="M35.5,38A6.5,6.5,0,1,1,42,31.5,6.508,6.508,0,0,1,35.5,38Zm0-11A4.5,4.5,0,1,0,40,31.5,4.505,4.505,0,0,0,35.5,27Z" transform="translate(-29 -25)" fill="#fff"/>
+  </g>
+  <path id="Path_15" data-name="Path 15" d="M13,32a1,1,0,0,1-1-1A14.015,14.015,0,0,1,26,17a1,1,0,0,1,0,2A12.013,12.013,0,0,0,14,31,1,1,0,0,1,13,32Z" fill="#fff"/>
+  <path id="Path_16" data-name="Path 16" d="M30,32a1,1,0,0,1-1-1A14.015,14.015,0,0,1,43,17a1,1,0,0,1,0,2A12.013,12.013,0,0,0,31,31,1,1,0,0,1,30,32Z" fill="#fff"/>
+</svg>
