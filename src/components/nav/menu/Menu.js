@@ -7,14 +7,14 @@ const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
       <img src={tmkLogo} alt="tmkLogo" />
-      <a href="/">
-        Home
+      <a href="#quality">
+        TMK Quality
       </a>
-      <a href="/">
-        Pricing
+      <a href="#specialties">
+        Specialties
         </a>
-      <a href="/">
-        Contact
+      <a href="#testimonials">
+        Testimonials
       </a>
     </StyledMenu>
   )

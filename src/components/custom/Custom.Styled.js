@@ -8,6 +8,7 @@ export const StyledCustom = styled.div`
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
+    margin-bottom: 20%;
 
     .custom-container {
         display: flex;

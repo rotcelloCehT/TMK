@@ -8,7 +8,7 @@ import rulerDark from '../../images/rulerdark.svg';
 
 const Triplecard = () => {
     return (
-        <StyledTriplecard >
+        <StyledTriplecard id="quality">
                 <div className="card">
                     <img className="log-decor" src={ logDark } alt="log decoration" />
                     <h3>Quality Products</h3>

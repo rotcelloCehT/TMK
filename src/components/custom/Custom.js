@@ -13,7 +13,7 @@ import Residential from '../../images/residential.png';
 
 const Custom = () => {
     return (
-        <StyledCustom >
+        <StyledCustom id="specialties">
                 <div className="custom-container">
                     <img src={ Hammer } alt="hammer" />
                     <h2>Custom<br/>Made</h2>

@@ -24,21 +24,21 @@ export const StyledFooter = styled.div`
         p {
             font-family: OpenRegular;
             font-size: 20px;
-            margin: 3%;
+            margin: 2%;
             @media (min-width: ${({ theme }) => theme.desktop}) {
-                font-size: 23px;
-                margin: 0;
+                font-size: 22px;
+                margin: 1%;
             }
         }
     }
 
     .social {
         display: flex;
-        padding: 0 0 0 10px;
+        padding: 0 0 0 12%;
         @media (min-width: ${({ theme }) => theme.desktop}) {
             flex-direction: column;
             justify-content: space-around;
-            padding: 0 0 0 5%;
+            padding: 0 0 0 2%;
             height: 25vh;
         }
         div {

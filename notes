@@ -30,3 +30,16 @@
         - https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
         - map styles position: absolute;
         - map container that wrap the component map you import, position: relative;
+
+12. CONTACT FORM react
+        - https://w3collective.com/react-contact-form/
+
+ALERT: font-size: 0; in globalStyles breaks the burger 
+
+13. using href="#example" and id="example". USE scroll-behavior: smooth; on global body,html tag for smoothness
+
+14. Menu and Burger hooks modification. 
+        -if (!ref.current || ref.current.contains(event.target) && event.target.tagName.toLowerCase() !== 'a')
+        - if !componentReceived OR clicked inside the component (NAV) AND the TARGET is not one of the links,
+                -return nothing
+        -ELSE return the mouse down event.

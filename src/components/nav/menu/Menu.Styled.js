@@ -45,10 +45,10 @@ export const StyledMenu = styled.nav`
 
   a {
     font-family: OpenRegular;
-    font-size: 1.5rem;
     text-transform: uppercase;
-    padding: 2rem 0;
+    padding: 20px 0;
     font-weight: bold;
+    font-size: 30px;
     letter-spacing: 0.5rem;
     color: ${({ theme }) => theme.primaryLight};
     text-decoration: none;
@@ -59,6 +59,7 @@ export const StyledMenu = styled.nav`
       font-size: 1rem;
       text-align: center;
       padding: 0 2%;
+      font-size: 18px;
     }
 
     &:hover {

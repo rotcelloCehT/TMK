@@ -17,6 +17,8 @@ import Bespoke from './components/bespoke/Bespoke';
 import Testimony from './components/testimony/Testimony';
 // FOOTER IMPORT
 import Footer from './components/footer/Footer';
+// CONTACT IMPORT
+import Contact from './components/contact/ContactForm';
 // STYLES AND GLOBAL THEME
 import GlobalStyles from './styles/globalStyles';
 import { ThemeProvider } from 'styled-components';
@@ -48,7 +50,8 @@ function App() {
           <Custom />
           <Bespoke />
           <Testimony />
-          <Footer />
+          {/* <Contact /> */}
+          {/* <Footer /> */}
         </>
       </ThemeProvider>
     </div>

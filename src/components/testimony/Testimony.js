@@ -5,7 +5,7 @@ import Client from '../../images/client.png';
 
 const Testimony = () => {
     return (
-        <StyledTestimony >
+        <StyledTestimony id="testimonials" >
             <div className="testimony">
                 <img className="quote" src={ Quote } alt="quote" />
                 <p>

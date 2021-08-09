@@ -9,11 +9,13 @@ export const StyledBespoke = styled.div`
     flex-direction: column;
     height: 100vh;
     width: 100%;
+    margin-bottom: 20%;
     background-image: url(${Bespoke});
     background-size: cover;
     background-repeat: no-repeat;
     @media (min-width: ${({ theme }) => theme.desktop}) {
         background-image: url(${BespokeDesktop});
+        margin-bottom: 5%;
     }
 
     .quote-container {

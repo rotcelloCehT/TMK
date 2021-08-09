@@ -74,7 +74,8 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${({ theme }) => theme.primaryWhite};
     color: ${({ theme }) => theme.primaryLight};
     text-rendering: optimizeLegibility;
-    font-size: 0;
+    // font-size: 0;
+    scroll-behavior: smooth;
   }
   *, *::after, *::before {
     box-sizing: border-box;
