@@ -5,9 +5,7 @@ export const useOnClickOutside = (ref, handler) => {
   useEffect(() => {
     const listener = event => {
       // if (!ref.current || ref.current.contains(event.target))
-      if (!ref.current || ref.current.contains(event.target) && event.target.tagName.toLowerCase() !== 'a') {
-        console.log(ref.current)
-        console.log(event.target)
+      if ((ref.current.contains(event.target) && event.target.tagName.toLowerCase() !== 'a') || !ref.current) {
         return;
       }
       handler(event);

@@ -43,3 +43,11 @@ ALERT: font-size: 0; in globalStyles breaks the burger
         - if !componentReceived OR clicked inside the component (NAV) AND the TARGET is not one of the links,
                 -return nothing
         -ELSE return the mouse down event.
+
+const contactEmail = nodemailer.createTransport({
+  service:  process.env.NODEMAILER_SERVICE,
+  auth: {
+    user:  process.env.NODEMAILER_USER,
+    pass:  process.env.NODEMAILER_PASS,
+  },
+});

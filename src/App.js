@@ -50,8 +50,8 @@ function App() {
           <Custom />
           <Bespoke />
           <Testimony />
-          {/* <Contact /> */}
-          {/* <Footer /> */}
+          <Contact />
+          <Footer />
         </>
       </ThemeProvider>
     </div>

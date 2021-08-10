@@ -8,16 +8,22 @@ const Footer = () => {
     return (
         <StyledFooter >
             <div className="info">
-                <p>Workshop: 15115 Hwy 27 Nobleton, ON</p>
+                <a target="__blank" href="https://goo.gl/maps/HXHshPHmRYKcohGL9">
+                    <p>Workshop: 15115 Hwy 27 Nobleton, ON</p>
+                </a>
                 <p>Phone: 416 505 5812</p>
                 <p>Email: Jason@tmkinc.ca</p>
             </div>
             <div className="social">
                 <div className="insta">
-                    <img src={ Insta }  alt="instagram link" />
+                    <a target="__blank" href="https://www.instagram.com/tmkinc5/?igshid=1mra0jyqwphyn">
+                        <img src={ Insta }  alt="instagram link" />
+                    </a>
                 </div>
                 <div className="facebook">
-                    <img src={ Facebook } alt="facebook link" />
+                    <a target="__blank" href="https://www.facebook.com/tailormadekitchensinc/?modal=admin_todo_tour">
+                        <img src={ Facebook } alt="facebook link" />
+                    </a>
                 </div>
             </div>
             <div className="map">

@@ -30,6 +30,16 @@ export const StyledFooter = styled.div`
                 margin: 1%;
             }
         }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color:#00A0C6; 
+            text-decoration:none; 
+            cursor:pointer;  
+        }
     }
 
     .social {
