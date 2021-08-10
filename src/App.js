@@ -39,19 +39,19 @@ function App() {
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyles />
-          {/* <div ref={node}>
+          <div ref={node}>
             <Burger open={open} setOpen={setOpen} />
             <Menu open={open} setOpen={setOpen} />
-          </div> */}
+          </div>
           <Header />
-          {/* <Gallery />
+          <Gallery />
           <About />
           <TripleCard />
           <Custom />
           <Bespoke />
           <Testimony />
           <Contact />
-          <Footer /> */}
+          <Footer />
         </>
       </ThemeProvider>
     </div>
