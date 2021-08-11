@@ -7,6 +7,7 @@ const ContactForm = () => {
       name="contact v2"
       method="post"
       data-netlify="true"
+      data-netlify-recaptcha="true"
       onSubmit="submit"
       data-netlify-honeypot="bot-field"
     >
