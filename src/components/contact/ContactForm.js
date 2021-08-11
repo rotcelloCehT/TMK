@@ -4,22 +4,45 @@ import { StyledContactForm } from "./ContactForm.Styled";
 const ContactForm = () => {
   return (
     <StyledContactForm>
-      <form name="contact" method="post" data-netlify="true" onSubmit="submit">
-        <input type="hidden" name="form-name" value="contact v1" />
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea id="message" name="message" required />
-        </div>
-        <button type="submit">test</button>
-      </form>
+      <form 
+      name="contact v2"
+      method="post"
+      data-netlify="true"
+      onSubmit="submit"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contact v2" />
+
+      <div hidden>
+        <input name="bot-field" />
+      </div>
+
+      <div>
+        <label>First name<br />
+            <input type="text" name="first-name" />
+        </label>
+      </div>
+
+      <div>
+        <label>Last name<br />
+            <input type="text" name="last-name" />
+        </label>
+      </div>
+
+      <div>
+        <label htmlFor="email" >Email</label><br />
+        <input id="email" type="email" name="email" />
+      </div>
+
+      <div>
+        <label>Any Comments?<br />
+          <textarea name="comments"></textarea>
+        </label>
+      </div>
+
+      <button type="submit">Submit The Results</button>
+
+    </form>
     </StyledContactForm>
   );
 };
