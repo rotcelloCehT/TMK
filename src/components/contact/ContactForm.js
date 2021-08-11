@@ -10,6 +10,7 @@ const ContactForm = () => {
         data-netlify="true"
         onSubmit="submit"
         data-netlify-honeypot="bot-field"
+        data-netlify-recaptcha="true"
       >
         <input type="hidden" name="form-name" value="contact v2" />
 
@@ -38,6 +39,10 @@ const ContactForm = () => {
           <label>Any Comments?<br />
             <textarea name="comments"></textarea>
           </label>
+        </div>
+
+        <div>
+          <div data-netlify-recaptcha="true"></div>
         </div>
 
         <button type="submit">Submit The Results</button>
