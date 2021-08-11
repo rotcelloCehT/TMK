@@ -3,7 +3,7 @@ import { StyledContactForm } from "./ContactForm.Styled";
 
 const ContactForm = () => {
   return (
-    <StyledContactForm>
+    // <StyledContactForm>
       <form 
         name="contact v2"
         method="post"
@@ -46,7 +46,7 @@ const ContactForm = () => {
         <button type="submit">Submit The Results</button>
 
       </form>
-    </StyledContactForm>
+    // </StyledContactForm>
   );
 };
 
