@@ -3,11 +3,8 @@ import { StyledContactForm } from "./ContactForm.Styled";
 
 const ContactForm = () => {
   return (
-    < StyledContactForm 
-      name="contact" 
-      method="POST"
-      data-netlify="true"
-    >
+    <StyledContactForm>
+      <form name="contact" method="POST" data-netlify="true">
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" required />
@@ -21,6 +18,7 @@ const ContactForm = () => {
           <textarea id="message" required />
         </div>
         <button type="submit">test</button>
+      </form>
     </StyledContactForm>
   );
 };

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledContactForm = styled.form `
+export const StyledContactForm = styled.div `
     border: 10px solid red;
 
     div {
