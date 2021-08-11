@@ -4,12 +4,9 @@ import { StyledContactForm } from "./ContactForm.Styled";
 const ContactForm = () => {
   return (
     < StyledContactForm 
-      name="contact v1"
-      method="post"
-      data-netflify="true"
-      onSubmit="submit"
+      name="contact"
+      netlify
     >
-        <input type="hidden" name="form-name" value="contact v1"/>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" required />
