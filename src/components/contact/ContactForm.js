@@ -1,10 +1,9 @@
 import React from "react";
-import { StyledContactForm } from "./ContactForm.Styled";
+// import { StyledContactForm } from "./ContactForm.Styled";
 
 const ContactForm = () => {
   return (
-    <StyledContactForm>
-      <form 
+    <form 
       name="contact v2"
       method="post"
       data-netlify="true"
@@ -43,7 +42,6 @@ const ContactForm = () => {
       <button type="submit">Submit The Results</button>
 
     </form>
-    </StyledContactForm>
   );
 };
 
