@@ -6,6 +6,7 @@ const ContactForm = () => {
     < StyledContactForm 
       name="contact"
       netlify
+      test
     >
         <div>
           <label htmlFor="name">Name:</label>
