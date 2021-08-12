@@ -4,7 +4,7 @@ import { StyledContactForm } from "./ContactForm.Styled";
 const ContactForm = () => {
   return (
     // <StyledContactForm>
-    <form name="contact" method="post" data-netlify-recaptcha="true" data-netlify="true">
+    <form name="contact" method="post">
     <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="name">Name</label> <br />
