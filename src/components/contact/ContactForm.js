@@ -18,6 +18,7 @@ const ContactForm = () => {
         <label htmlFor="message">Message</label> <br />
         <textarea id="message" name="message" required></textarea>
       </p>
+      <div data-netlify-recaptcha="true"></div>
       <p>
         <input type="submit" value="Submit message" />
       </p>
