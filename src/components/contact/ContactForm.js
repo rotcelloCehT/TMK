@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     // <StyledContactForm>
     <form name="contact" method="post">
-    <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="name">Name</label> <br />
         <input type="text" id="name" name="name" required />
@@ -18,7 +18,6 @@ const ContactForm = () => {
         <label htmlFor="message">Message</label> <br />
         <textarea id="message" name="message" required></textarea>
       </p>
-      <div data-netlify-recaptcha="true"></div>
       <p>
         <input type="submit" value="Submit message" />
       </p>
