@@ -27,35 +27,10 @@
     <title>React App</title>
   </head>
   <body>
-    <form 
-      name="contact v2"
-      method="POST"
-      data-netlify="true"
-      onSubmit="submit"
-      data-netlify-honeypot="bot-field"
-      data-netlify-recaptcha="true"
-      hidden
-    >
-      <div>
-        <label>First name<br />
-            <input type="text" name="first-name" />
-        </label>
-      </div>
-      <div>
-        <label>Last name<br />
-            <input type="text" name="last-name" />
-        </label>
-      </div>
-      <div>
-        <label htmlFor="email" >Email</label><br />
-        <input id="email" type="email" name="email" />
-      </div>
-      <div>
-        <label>Any Comments?<br />
-          <textarea name="comments"></textarea>
-        </label>
-      </div>
-      <button type="submit">Submit The Results</button>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text"  name="name">
+      <input type="email" name="email">
+      <textarea name="message"></textarea>
     </form>
 
     <noscript>You need to enable JavaScript to run this app.</noscript>
