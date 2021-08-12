@@ -20,7 +20,7 @@ const Triplecard = () => {
                         Our design is based on our previous experiences 
                         and what is most practical.
                     </p>
-                    <img className="ruler-decor" id="blue" src={ rulerLight } alt="log decoration" />
+                    <img className="ruler-decor" id="blue" src={ rulerLight } alt="ruler decoration" />
                 </div>
                 <div className="card" id="dark">
                     <img className="log-decor" src={ logLight } alt="log decoration" />
@@ -34,7 +34,7 @@ const Triplecard = () => {
                         material we will maintain artisanal 
                         level craftsmanship.
                     </p>
-                    <img className="ruler-decor" id="grey" src={ rulerDark } alt="log decoration" />
+                    <img className="ruler-decor" id="grey" src={ rulerDark } alt="ruler decoration" />
                 </div>
                 <div className="card">
                     <img className="log-decor" src={ logDark } alt="log decoration" />
@@ -44,7 +44,7 @@ const Triplecard = () => {
                          Institutional and Industrial millwork according 
                          to design Specifications.
                     </p>
-                    <img className="ruler-decor" src={ rulerLight } alt="log decoration" />
+                    <img className="ruler-decor" src={ rulerLight } alt="ruler decoration" />
                 </div>
         </StyledTriplecard>
     )

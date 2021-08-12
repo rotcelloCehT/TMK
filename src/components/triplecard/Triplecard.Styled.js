@@ -68,7 +68,9 @@ export const StyledTriplecard = styled.div`
             width: 100%;
             bottom: 0;
             left: 0;
+            margin: -1px;
             z-index: 1;
+            background: ${({ theme }) => theme.primaryWhite};
               @media (min-width: ${({ theme }) => theme.desktop}) {
                 background: white;
             }

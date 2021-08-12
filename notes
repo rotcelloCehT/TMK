@@ -54,4 +54,5 @@ const contactEmail = nodemailer.createTransport({
 
 15. FORM REACT DOCUMENTATION
         -https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/
-        - each input must have a name tag
+        -each input must have a name tag
+        -https://www.seancdavis.com/blog/what-you-need-to-know-about-netlify-forms/

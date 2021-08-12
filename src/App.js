@@ -26,6 +26,8 @@ import { theme } from './styles/theme';
 // NAVIGATION HOOKS
 import { useOnClickOutside } from './hooks';
 import React, { useState, useRef } from 'react';
+// ROUTER
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 
 function App() {
@@ -36,24 +38,33 @@ function App() {
   
   return (
     <div className="App">
-      <ThemeProvider theme={theme}>
-        <>
-          <GlobalStyles />
-          <div ref={node}>
-            <Burger open={open} setOpen={setOpen} />
-            <Menu open={open} setOpen={setOpen} />
-          </div>
-          <Header />
-          <Gallery />
-          <About />
-          <TripleCard />
-          <Custom />
-          <Bespoke />
-          <Testimony />
-          <Contact />
-          <Footer />
-        </>
-      </ThemeProvider>
+      <Router>
+        <ThemeProvider theme={theme}>
+          <>
+            <GlobalStyles />
+            <div ref={node}>
+              <Burger open={open} setOpen={setOpen} />
+              <Menu open={open} setOpen={setOpen} />
+            </div>
+            <Switch>
+              <Route path='/' exact>
+                <Header />
+                <Gallery />
+                <About />
+                <TripleCard />
+                <Custom />
+                <Bespoke />
+                <Testimony />
+                <Contact />
+                <Footer />
+              </Route>
+              <Route path='/contact'>
+                <Contact />
+              </Route>
+            </Switch>
+          </>
+        </ThemeProvider>
+      </Router>
     </div>
   );
 }

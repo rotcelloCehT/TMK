@@ -2,7 +2,9 @@
 import { createGlobalStyle } from 'styled-components';
 // OPEN SANS IMPORT 
 import OpenRegular from '../fonts/Open_Sans/OpenSans-Regular.ttf';
+import OpenBold from '../fonts/Open_Sans/OpenSans-Bold.ttf';
 import OpenLight from '../fonts/Open_Sans/OpenSans-Light.ttf';
+import OpenLightItalic from '../fonts/Open_Sans/OpenSans-LightItalic.ttf'
 import OpenExtraItalic from '../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf'
 // OSWALD IMPORT 
 import OswaldMedium from '../fonts/Oswald/Oswald-Medium.ttf';
@@ -22,6 +24,16 @@ const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: OpenLight;
     src: url(${OpenLight}) format('truetype');
+    font-display: auto;
+  }
+  @font-face {
+    font-family: OpenBold;
+    src: url(${OpenBold}) format('truetype');
+    font-display: auto;
+  }
+  @font-face {
+    font-family: OpenLightItalic;
+    src: url(${OpenLightItalic}) format('truetype');
     font-display: auto;
   }
   @font-face {
